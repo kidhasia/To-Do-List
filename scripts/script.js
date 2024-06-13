@@ -35,6 +35,19 @@ listBox.addEventListener("click", function(e){
     }
 },false)
 
+document.addEventListener('keyup', (d) => {
+    if (d.keyCode === 13 && inputBox === document.activeElement) {
+       if(inputBox.value !== ''){
+           
+           addTask();
+       } 
+       else{
+        alert("Enter a task to complete!");
+       }
+    }
+   
+});
+
 function saveData(){
     localStorage.setItem("data",listContainer.innerHTML);
 }
