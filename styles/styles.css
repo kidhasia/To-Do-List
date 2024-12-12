@@ -5,7 +5,7 @@
     font-family: poppins;
 }
 .container{
-    background: linear-gradient(to right, #006400, #008080, #0000FF);
+    background: linear-gradient(to right, #66D091 19%, #71D8A0 49%, #68CAF4 85%);
     width: 100%;
    min-height: 100vh;
    padding: 10px;
@@ -51,7 +51,7 @@ input{
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: #09a709;
+    background: #2CB669;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
